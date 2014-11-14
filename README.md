@@ -212,6 +212,8 @@ on its own and relies entirely on NodeJS and node-http-proxy.
 If provided with a SSL private key and certificate, Hipache will support SSL
 connections, for "regular" requests as well as WebSocket upgrades.
 
+Configuration support Chain certificate.
+
 ### Custom HTML error pages
 
 When something wrong happens (e.g., a backend times out), or when a request
